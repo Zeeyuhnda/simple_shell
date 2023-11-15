@@ -36,13 +36,13 @@ void handle_ctrl_c(int opr UNUSED)
 	_print(PROMPT_MSG);
 }
 /**
- * initialize_data - initialize struct with info of program
+ * inicialize_data - initialize struct with info of program
  * @data: struct of program data
  * @argv: array of args passed to program execution
  * @env: environ passed to program execution
  * @argc: num of values received from command line
  */
-void initialize_data(data_of_program *data, int argc, char *argv[], char **env)
+void inicialize_data(data_of_program *data, int argc, char *argv[], char **env)
 {
 	int i = 0;
 
