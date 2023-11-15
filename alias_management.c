@@ -40,7 +40,7 @@ int print_alias(data_of_program *data, char *alias)
  * get_alias - add, remove, show aliases
  * @data: struct for program data
  * @name: namoe of alias
- * Return 0 if success, else other num
+ * Return: 0 if success, else other num
  */
 char *get_alias(data_of_program *data, char *name)
 {

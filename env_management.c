@@ -4,7 +4,7 @@
  * env_get_key - gets the value of an environment variable
  * @key: environment var
  * @data: struct of program data
- * Return; pointer to value of var or null if non-existent
+ * Return: pointer to value of var or null if non-existent
  */
 char *env_get_key(char *key, data_of_program *data)
 {

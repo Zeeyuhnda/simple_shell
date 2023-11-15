@@ -5,7 +5,7 @@
  * @argc: num og values received from command line
  * @argv: values received from command line
  * @env: num of values received from command line
- * Return : 0 if success
+ * Return: 0 if success
  */
 int main(int argc, char *argv[], char *env[])
 {
@@ -42,7 +42,7 @@ void handle_ctrl_c(int opr UNUSED)
  * @env: environ passed to program execution
  * @argc: num of values received from command line
  */
-void inicialize_data(data_of_program *data, int argc, char *argv[], char **env)
+void initialize_data(data_of_program *data, int argc, char *argv[], char **env)
 {
 	int i = 0;
 

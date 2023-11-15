@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * builtins_env - shows the environment the shell runs in
+ * builtin_env - shows the environment the shell runs in
  * @data: struct for program data
  * Return: 0 if successfull, else other num in args
  */

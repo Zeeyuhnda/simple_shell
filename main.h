@@ -60,7 +60,7 @@ typedef struct builtins
 /*========  shell.c  ========*/
 
 /* Inicialize the struct with the info of the program */
-void inicialize_data(data_of_program *data, int arc, char *argv[], char **env);
+void initialize_data(data_of_program *data, int arc, char *argv[], char **env);
 
 /* Makes the infinite loop that shows the prompt*/
 void sisifo(char *prompt, data_of_program *data);
@@ -246,4 +246,4 @@ char *get_alias(data_of_program *data, char *alias);
 int set_alias(char *alias_string, data_of_program *data);
 
 
-#endif /* SHELL_H */
+#endif
